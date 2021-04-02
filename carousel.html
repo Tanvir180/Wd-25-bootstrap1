@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home | Bootstrap</title>
+	<!-- Bootstrap v4.5.3 CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<!-- fontawesome v4.7.0 CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/icon/css/font-awesome.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<style type="text/css">
+		.position-rel{
+			position: relative;
+		}
+		.position-abs{
+			position: absolute;
+			top: 30%;
+			left: 45%;
+			text-align: center;;
+			background: tomato;
+			opacity: .5;
+			padding: 20px;
+			height: 200px;
+			width: 200px;
+		}
+	</style>
+</head>
+<body>
+				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active position-rel">
+			      <img src="assets/img/1.jpg" class="d-block w-100" alt="...">
+			      <div class="carousel-caption d-none d-md-block position-abs ">
+			        <h5>First slide label</h5>
+			        <p>First Caption.</p>
+			        <button type="button" class="btn btn-primary btn-lg ">More Info</button>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="assets/img/2.jpg" class="d-block w-100" alt="...">
+			      <div class="carousel-caption d-none d-md-block">
+			        <h5>Second slide label</h5>
+			        <p>Second Caption.</p>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="assets/img/3.jpg" class="d-block w-100" alt="...">
+			      <div class="carousel-caption d-none d-md-block">
+			        <h5>Third slide label</h5>
+			        <p>Third Caption.</p>
+			      </div>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+	<!-- jquery v3.5.1 JS -->
+	<script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+	<!-- Popper JS -->
+	<script src="assets/js/popper.min.js"></script>
+	<!-- Bootstrap v4.5.3 JS -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- Main JS -->
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
